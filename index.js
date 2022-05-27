@@ -48,7 +48,6 @@ program
 
     const currentDir = process.cwd();
     const gitDiff = spawnSync("git", [
-      "--no-pager",
       "diff",
       "--name-status",
       compare,
